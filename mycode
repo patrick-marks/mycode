@@ -1,3 +1,8 @@
 #!/usr/bin/python3
 
-my_list = ["192.168.0.5", 5060, "UP"
+mess= [1, 2, [3, 4, 5, {"six":6, "seven":7, "eight":8}]]
+
+mess2= mess[2][3]
+
+print(mess2["eight"])
+
